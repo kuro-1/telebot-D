@@ -36,6 +36,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             InlineKeyboardButton("📢 قناة المطور", url="https://t.me/GOTHIKAN"), # يمكنك تغيير الرابط لاحقاً
             InlineKeyboardButton("🛠️ الدعم الفني", url=f"tg://user?id={ADMIN_ID}")
         ],
+    ]
 
     reply_markup = InlineKeyboardMarkup(keyboard)
 
@@ -114,3 +115,4 @@ if __name__ == '__main__':
     
     print("البوت يعمل الآن بالبيانات الجديدة...")
     app.run_polling()
+
