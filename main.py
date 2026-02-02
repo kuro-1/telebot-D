@@ -5,8 +5,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import yt_dlp
 
 # --- الإعدادات ---
-TOKEN = 'رقم_التوكن_الخاص_بك'
-ADMIN_ID = 123456789  # استبدل هذا الرقم بـ ID حسابك في تلغرام
+TOKEN = ''8549941066:AAFzZwFVYqx2gZ9Cl0A1yxA64DrCmRXqm6s
+ADMIN_ID = '  6271177587' # استبدل هذا الرقم بـ ID حسابك في تلغرام
 USERS_FILE = 'users_data.json'
 
 # --- وظائف إدارة المستخدمين ---
@@ -84,3 +84,4 @@ if __name__ == '__main__':
     
     print("البوت يعمل مع نظام الإدارة...")
     app.run_polling()
+
