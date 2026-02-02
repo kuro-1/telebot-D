@@ -31,7 +31,7 @@ def save_user(user):
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     save_user(user) # حفظ بيانات المستخدم عند أول تفاعل
-    await update.message.reply_text(f"أهلاً بك {user.first_name}!\nأرسل رابط الفيديو للتحميل.")
+    await update.message.reply_text(f"أهلاً بك {user.first_name}!\nأرسل رابط الفيديو للتحميل \n ألمطور :- @telecomiq1.")
 
 async def get_stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # التأكد أن الشخص هو الإدمن
@@ -84,6 +84,7 @@ if __name__ == '__main__':
     
     print("البوت يعمل مع نظام الإدارة...")
     app.run_polling()
+
 
 
 
